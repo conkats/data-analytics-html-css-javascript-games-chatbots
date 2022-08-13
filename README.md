@@ -3,5 +3,7 @@ Tic_tac_toe_game
 This form part of the training week with Boolean, which introduce the basic concepts and all need to create an html website and use javascript to programme it
 
 Documentation and links to follow:
-[1] https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks
+
+[1] https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks \n
+
 [2] https://www.youtube.com/watch?v=6NyaVsZhk4c
