@@ -4,3 +4,4 @@ This form part of the training week with Boolean, which introduce the basic conc
 
 Documentation and links to follow:
 [1] https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks
+[2] https://www.youtube.com/watch?v=6NyaVsZhk4c
