@@ -7,3 +7,7 @@ Documentation and links to follow:
 [1] https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks 
 
 [2] https://www.youtube.com/watch?v=6NyaVsZhk4c
+
+[3] https://www.youtube.com/channel/UClS2Yv-ots18NNDZ4Vk0_ZQ/videos
+
+[5] https://boolean-uk.github.io/coding-weeks/2022/aug/index.html
