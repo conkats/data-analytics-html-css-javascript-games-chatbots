@@ -1,2 +1,2 @@
-# -html_javascript_css_game3_space_invaders
+# html_javascript_css_game3_space_invaders
 Space_Invaders
