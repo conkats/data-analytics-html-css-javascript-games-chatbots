@@ -1,7 +1,9 @@
-A repo with the coding weeks and project generated for the certification from Boolean
-Includes:
-- Games in html, js, css
-- Chatbots
-- Tableau
-- Google docs
-- Python and Data Analytics
+# Context
+A repo that includes projects for coding with html, javascript and css. This forms the origin from 
+the Boolean coding weeks and work generated towards the certification.
+
+# Projects list:
+1. Developing games and websites in html, js, css
+2. Using Chatbots and APIs
+3. Working with Tableau
+4. Working with Google sheets
