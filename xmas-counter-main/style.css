@@ -1,0 +1,25 @@
+/* Custom properties */
+:root {
+    --color-blue: #3535EC;
+    --color-white: #ffffff;
+}
+
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Generic rules */
+html {
+    background-color: var(--color-blue);
+    line-height: 1;
+    color: var(--color-white);
+}
+
+/* Tree */
+
+
+
+/* Panel */
