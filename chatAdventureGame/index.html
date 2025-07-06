@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chat Adventure</title>
+        <!-- Importing Space Grotesk font from Google -->
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Importing local CSS file -->
+        <link href="./style.css" rel="stylesheet">
+        <!-- Importing local JS file -->
+        <script src="utils.js" defer></script>
+        <script src="main.js" defer></script>
+         <!-- Importing local JS file -->
+        <script src="config.js" defer></script>
+    </head>
+<body>
+
+    <header>
+        <h1>ChatVenture</h1>
+        <p>Hello player! Welcome to the text adventure game where the story is made up by GPT :)</p>
+    </header>
+
+   <main class="container">
+        <div class="loading hidden">
+            <img src="./images/loader.gif" alt="loading icon">
+        </div>
+        
+        <div class="error hidden">
+            <strong>Sorry, something went wrong...</strong>
+            <div class="error-messages"> </div>
+        </div>
+
+        <div class="stage-container"></div>
+
+        <div class="genres">
+            <!--windows+.-->
+            <div class="genre" data-genre="horror">&#128123</div>
+            <div class="genre" data-genre="spy film">&#128373</div>
+            <div class="genre" data-genre="marvel superheros">&#129464</div>
+        </div>
+   </main>
+
+   <template id="stage-template">
+    <div class="stage-set">
+      <div class="stage-image">
+        <!-- <img src="https://picsum.photos/600" alt=""> -->
+      </div>
+      <p class="stage-setting">
+        <!-- Lorem ipsum -->
+      </p>
+    </div>
+    <div class="stage-actions">
+      <!--
+      <button>Action 1</button>
+      <button>Action 2</button>
+      <button>Action 3</button>
+      -->
+    </div>
+   </template>
+
+   <template id="game-over-template">
+    <div class="game-over-container">
+      <div class="game-over-logo">☠</div>
+      <h2>Game Over!!!</h2>
+      <p class="game-over-message"></p>
+      <button>Play again</button>
+    </div>
+  </template>
+
+</body>
+
+</html>
