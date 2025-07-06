@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffaafb;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #1212b2;
+    line-height: 1.2;
+}
+
+header{
+    background-color: #1212b2;
+    padding: 32px 32px 0 32px ;
+    text-align: center;
+    color: #ffaafb;
+}
+
+header .logo {
+    font-size: 100px;
+    line-height: 1;
+    bottom: -3px;
+    position: relative;
+    margin-top: 10px;
+}
+
+main{
+    text-align: center;
+}
+
+.container{
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 32px 12px;
+}
+
+.ingredients{
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    justify-content: space-around;
+    gap:10px;
+}
+
+.ingredient{
+    width: 80px;
+    height:80px;
+    font-size:40px;
+    background-color: #a1d2ff;
+    text-align: center;
+    line-height: 2;
+    border: 2px solid #1212b2;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.bowl{
+    display: grid;
+    grid-template-columns: repeat(3,172px);
+    justify-items: center;
+}
+
+.bowl-slot{
+    width: 100%;
+    background-color: white;
+    border: 2px solid #1212b2;
+    padding: 12px;
+    font-size: 46px;
+    text-align: center;
+
+}
+
+.bowl-slot:first-child{
+    border-radius: 20px 0 0 20px;
+
+}
+
+.bowl-slot:last-child{
+    border-radius: 0 20px 20px 0;
+
+}
+
+.bowl-slot:not(:last-child){
+    border-right: none;
+}
+
+.cook-btn{
+    background-color: #1212b2;
+    padding: 12px 24px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.loading{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    position: fixed;
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index: 999;
+    background-color: rgb(255 170 251 / 85%);
+
+}
+
+.loading-message{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.modal {
+    position:fixed;
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    background-color: rgb(255 170 251 / 85%);
+    padding:24px;
+
+}
+
+.modal-box{
+    position: relative;
+    width: 100px;
+    background-color: #ffffff;
+    max-width: 512px;
+    border: 2px solid #1212b2;
+    margin:24px auto;
+}
+
+.modal-image{
+    background-image: url("./images/loader.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height:250px;
+    
+}
+
+.modal-content{
+    padding: 24px;
+}
+
+.modal-close{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position:absolute;
+    top: 12px;
+    right:12px;
+    height: 36px;
+    width: 36px;
+    border: 2px solid #1212b2;
+    border-radius: 50%;
+    cursor: pointer;
+
+}

@@ -1,0 +1,104 @@
+In the css you target the class loading, but in the html I do not see where this is. Only loading hiddern and loading message. Does the class loading target any class that contains the word loading?
+the loading hidden you see in the HTML is matching the loading class in css and the hidden class in css. HTML elements can have multiple classes.
+
+
+In the workplace is it acceptable/allowed to use AI to help with projects? I am building a website and I asked my fellow humans for help and 6 of them couldn't answer. I asked ChatGPT and it came up with the correct answer immediately.
+It can depend on where you work - but most places would be okay with it I believe. The trick with ChatGPT is knowing if it's given you a correct answer or not :)
+
+
+Can see you are hosting on a live IP - how would we go about doing this rather than running the HTML files from our local documents?
+Frameworks such as react often come with a website packaged in for development. Nathan will run a command that we'll see later and that will host the web app on a localhost address
+
+
+in <class=“…”> the … can be any name?
+Lewis 06:14 PM 
+Yep! The important thing is that they match up to the style you write in your .css file :)
+
+
+Does assigning a background to the HTML tag differ in any way to assigning it to the BODY tag?
+Lewis 06:45 PM 
+Not really, no.
+
+Is it advisable to use pixel or rem as units?
+Lewis 06:17 PM 
+It will depend on your designs. REM is a relatively measurement that can change size depending on the user's device. Pixels will always refer to the actual pixels on the device's screen.
+
+do you always need to select the parent element to target a class within it when writing the css? Also in this example, is the header a parent element, then the div class the child element?
+Lewis 06:22 PM 
+You don't always have to. If the styles will be the same for every instance of the class, then you don't need to specify the parent, but it's always best to define your classes as specific as you can to not have overlapping styles. 
+
+you're correct, the header is the parent and the div is the child.
+
+
+in CSS, 
+when do you use pixels vs. percentages? 20px vs. 50% (example border-radius)
+Lewis 06:29 PM 
+It can depend - percentages are relative to the parent of the element, where as pixels are pure pixels of the device you're viewing the website on.
+
+n last webinar, at the end part, I was integrating OpenAI api into the Quote bot generator app. But i was getting this error: 429 - quota reached it's limit. check your billing.
+
+That was my first time using OpenAI API. But I faced this issue. 
+in order to move forward with today's password, I will definetly face this same issue while integrating my OpenAI api to this Emoji chef app. How should I solve this API issue?
+Lewis 06:29 PM 
+It could be that ChatGPT was quite busy at that time for the free version.
+
+
+Thaarik Ahamed 06:27 PM 
+In last webinar, at the end part, I was integrating OpenAI api into the Quote bot generator app. But i was getting this error: 429 - quota reached it's limit. check your billing.
+
+That was my first time using OpenAI API. But I faced this issue. 
+in order to move forward with today's password, I will definetly face this same issue while integrating my OpenAI api to this Emoji chef app. How should I solve this API issue?
+
+I have the same issue!
+Lewis 06:32 PM 
+It could be that ChatGPT was busy at that point in time, and was rate limiting people using the free tier. It could also be that you need to sign up/pay to use chatGPT at that time.
+
+
+Can you target any child this way, or only the first and last one?
+Lewis 06:37 PM 
+You can also use nth-child too
+
+i rember from tuesday using hero image as the first image is the same concept with the child ?
+Lewis 06:37 PM 
+Ah, that might have been a specific class name used in that demo
+
+What does it mean when you add a colon and parentheses inside a class name? 
+
+ .bowl-slot:not (:last child)
+Lewis 06:39 PM 
+the : is what we call a psuedo selector - so we can do things like :last-child (the last element inside the element we are selecting) - or other things like :focused. You can read more about them here: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+
+
+whats difference between justify/align items/content of each and is it only done after doing display grid. :))
+Lewis 06:43 PM 
+Justify/align content/items are properties you can only use with grid or flexbox - Nathan will explain this shortly when we get to the questions sections.
+
+
+I also missed what the z-index does, does the 999 just mean it will be on top of all other elements below this number?
+Lewis 06:44 PM 
+Correct!
+
+
+and why is one a () and one {}
+Lewis 07:18 PM 
+The () is what inputs the function takes (none in this case) and the {} is the code block of the function, where we add the code we want to run when the event is fired.
+
+
+The syntax after the function (){} how are we supposed to use it?
+Lewis 07:18 PM 
+It's defining a function. We can add some code inside that function to do an action when the button is clicked.
+
+
+if the funciton in the addEvenListener takes some time to process will the webpage hang?
+Lewis 07:17 PM 
+Most likely, yes! You'll often want to put a loading symbol in to tell the user something is happening and to wait for it to finish.
+
+If you were to create an app using html, how would you protect or secure your app using html from cyber attack?
+Lewis 07:16 PM 
+Cyber security is a very in-depth topic that would be difficult to explain in this session.
+
+
+
+https://github.com/boolean-uk/cw-emoji-chef/pull/4/files
+https://github.com/boolean-uk/cw-emoji-chef
